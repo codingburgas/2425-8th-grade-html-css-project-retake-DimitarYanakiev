@@ -45,6 +45,7 @@ git clone https://github.com/codingburgas/2425-8th-grade-html-css-project-retake
 <img src="images/css.png" alt="Technologies Used" width="100">
 <img src="images/vscode.png" alt="Technologies Used" width="100">
 <img src="images/git.png" alt="Technologies Used" width="100">
+<img src="images/ppoint.png" alt="Technologies Used" width="100">
 </p>
 
 ## Authors

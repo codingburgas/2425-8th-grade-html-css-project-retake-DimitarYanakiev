@@ -1,82 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>The Silver Tracery</title>
-    <link rel="stylesheet" href="style.css">
+<head>    <title>The Silver Tracery</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <header>
+        
         <nav id="main">
-                    <div class="navBar">
-                    <div class="navLeft">
-                        <a href="#">Home</a>                       
-                        <a href="#" class="highLight">Menu</a>                       
-                        <a href="#">HowToOrder</a>                        
-            
+                    <div class="navBar">                    <div class="navLeft">                        <a href="index.html"><h3>Home</h3></a>                       
+                        <a href="index.html" class="highLight"><h3>Menu</h3></a>                       
+                        <a href="pages/howtoorder.html"><h3>How To Order</h3></a>                        
+                    </div>
+                    
+                    <div class="underlogo">
+                       
                     </div>
                     <div class="navLogo">
                         <img src="images/restourantLogo.png" />
-                    </div>
-                    <div class="navRight">
-                        <a href="#">Careers</a>
-                        <a href="#" class="btn green">YourFeedback</a>
-                        <a href="#">Promotions</a>
+                    </div>                    <div class="navRight">
+                        <a href="pages/feedback.html"><h3>Your Feedback</h3></a>
+                        <a href="pages/promotions.html"><h3>Promotions</h3></a>
+                         <a href="pages/login.html"><h3>Login</h3></a>
                     </div>
                     </div>
         </nav>
+
     </header>
+
+        <br>
+         <div class="searchContainer">
+            <form action="" class="search">
+            <input id="searchtext" type="text" value="Search">
+            <input id ="searchbutton" type="Submit" value="Search">
+            </form>
+        </div>
 
 
            <section class="menu">
              
-                <h1>Special Menu</h1>
-
-                <div class="menuGrid">
+                <h1>New Options</h1>                    <div class="menuGrid">
                     <div class="menuCard">
                         <img src="images/burger.png" alt="">
                         <div class="menuDetails">
-                            <h3>Burgers and Sandwiches</h3>
+                            <a href="pages/BurgersandSandwiches.html"><h3>Burgers and Sandwiches</h3></a>
                         </div>
                     </div>
                      <div class="menuCard">
-                        <img src="" alt="">
+                        <img src="images/pizza.png" alt="">
                         <div class="menuDetails">
-                            <h3></h3>
+                            <a href="pages/pizza.html"><h3>Pizza</h3></a>
                        </div>
                     </div>
                      <div class="menuCard">
                         <img src="images/sushi.png" alt="">
                         <div class="menuDetails">
-                            <h3>Sushi</h3>
+                            <a href="pages/sushi.html"><h3>Sushi</h3></a>
                         </div>
                     </div>
-                    <div class="menuCard">
-                        <img src="" alt="">
-                        <div class="menuDetails">
-                            <h3></h3>
-                        </div>
-                    </div>
-                    <div class="menuCard">
-                        <img src="" alt="">
-                        <div class="menuDetails">
-                            <h3>a</h3>
-                        </div>
-                    </div>
+
             </section>
   
-        <div class="menuBar">
-            <div class="menuItem">Starters</div>
-            <div class="menuItem">Salads
-                <a href="salads.html"><button>Add To Cart</button></a>
+        <div class="menuBar">            <div class="menuItem">
+                <a href="pages/starters.html">Starters</a>
             </div>
-            <div class="menuItem">Main Dishes</div>
-            <div class="menuItem">Sea Food</div>
-            <div class="menuItem">Vegetarian Food</div>
-            <div class="menuItem">Kids Menu</div>
-            <div class="menuItem">New Suggestions</div>
+            <div class="menuItem">
+                <a href="pages/salads.html">Salads</a>
+            </div>
+            <div class="menuItem">
+               <a href="pages/maindishes.html"> Main Dishes</a>
+               </div>
+            <div class="menuItem">
+                <a href="pages/seafood.html">Sea Food</a>
+            </div>
+            <div class="menuItem">
+                <a href="pages/vegetarianfood.html">Vegetarian Food</a>
+            </div>
+            <div class="menuItem">
+               <a href="pages/kidsmenu.html">Kids Menu</a>
+            </div>
+            <div class="menuItem">
+                <a href="pages/deserts.html">Deserts</a>
+            </div>
+            <div class="menuItem">
+                <a href="pages/drinks.html">Drinks</a>
+            </div>
         </div>
 
 
+
+             <section class="menu">
+             
+                <h1>Best Seller</h1>
+
+     <div class="menuGridlow">                    <div class="menuGallery">
+                        <img src="images/tortia.png" alt="">
+                        <div class="menuDetails">
+                            <h3>Tourtia with crispy chicken</h3>
+                            <p></p>
+                            <a href="pages/TourtiaWithCrispyChicken.html"><button>Options</button></a>
+                            <a href="pages/purchesmenu.html"><button>Add To Cart</button></a>
+                        </div>
+                    </div>                    <div class="menuGallery">
+                        <img src="images/beefstake.png" alt="">
+                        <div class="menuDetails">
+                            <h3>Beef steak</h3>
+                            <p></p>
+                            <a href="pages/BeefSteak.html"><button>Options</button></a>
+                            <a href="pages/purchesmenu.html"><button>Add To Cart</button></a>
+                        </div>
+                    </div>                    <div class="menuGallery">
+                        <img src="images/pizzacapricciosa.png" alt="">
+                        <div class="menuDetails">
+                            <h3>Pizza Capricciosa</h3>
+                            <p></p>
+                            <a href="pages/PizzaCapricciosa.html"><button>Options</button></a>
+                            <a href="pages/purchesmenu.html"><button>Add To Cart</button></a>
+                        </div>
+                    </div>                    <div class="menuGallery">
+                        <img src="images/chickenfingers.png" alt="">
+                        <div class="menuDetails">
+                            <h3>Chicken Fingers</h3>
+                            <p></p>
+                            <a href="pages/chickenfingers.html"><button>Options</button></a>
+                            <a href="pages/purchesmenu.html"><button>Add To Cart</button></a>
+                        </div>
+                    </div>                    <div class="menuGallery">
+                        <img src="images/blackangusburger.png" alt="">
+                        <div class="menuDetails">
+                            <h3>Black Angus Burger</h3>
+                            <p></p>
+                            <a href="pages/BlackAngusBurger.html"><button>Options</button></a>
+                            <a href="pages/purchesmenu.html"><button>Add To Cart</button></a>
+                        </div>
+                    </div>                    <div class="menuGallery">
+                        <img src="images/clubsandwich.png" alt="">
+                        <div class="menuDetails">
+                            <h3>Club Sandwich</h3>
+                            <p></p>
+                            <a href="pages/ClubSandwich.html"><button>Options</button></a>
+                            <a href="pages/purchesmenu.html"><button>Add To Cart</button></a>
+                        </div>
+                    </div>                    <div class="menuGallery">
+                        <img src="images/sushirollcombo.png" alt="">
+                        <div class="menuDetails">
+                            <h3>Sushi Combo Deluxe (24 pcs)</h3>
+                            <p></p>
+                            <a href="pages/SushiComboDeluxe.html"><button>Options</button></a>
+                            <a href="pages/purchesmenu.html"><button>Add To Cart</button></a>
+                        </div>
+                    </div>
+                     
+            
+            </section>
     
     <footer>
         <p>&copy; 2025 The Silver Tracery. All rights reserved.</p>
